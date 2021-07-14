@@ -1,0 +1,91 @@
+body{
+    font-family: Roboto, sans-serif;
+    background-color: var(--primary-white-color);
+}
+
+:root{
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+    --secondary-text-color: #ffffff;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --botton-color: #f5f4fa; 
+}
+
+.nav-link a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);
+}
+
+.nav-link a:hover,
+.nav-link a:focus{
+    color: var(--accent-color);
+}
+
+.contact-link a{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.contact-link a:hover,
+.contact-link a:focus{
+    color: var(--accent-color);
+}
+
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--secondary-text-color);
+}
+
+.values-item{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+}
+
+.values-discription{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.product-title, .comand-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.employee{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+}
+
+.position{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
