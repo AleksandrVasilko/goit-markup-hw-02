@@ -1,5 +1,5 @@
 body{
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--primary-white-color);
 }
 
@@ -14,12 +14,13 @@ body{
 }
 
 .logo{
-    font-family: Raleway;
-    font-weight: bold;
+    font-family: 'Raleway';
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+    text-decoration: none;
 }
 
 .logo-header{
@@ -30,30 +31,35 @@ body{
     color: #ffffff;
 }
 
-.nav-link a{
+.link-page{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
+    text-decoration: none;
 }
 
-.nav-link a:hover,
-.nav-link a:focus{
-    color: var(--accent-color);
-}
-
-.contact-link a{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.link-page.contact{
     color: var(--primary-text-color);
+}
+
+.link-page.contact-footer{
+    color: rgba(255,255,255, 0.6);
+}
+
+.link-page:hover,
+.link-page:focus{
+    color: var(--accent-color);
 }
 
 .contact-link a:hover,
 .contact-link a:focus{
     color: var(--accent-color);
+}
+
+.link-page.contact{
+    color: var(--primary-text-color);
 }
 
 .hero-section, .footer{
@@ -71,7 +77,7 @@ body{
 }
 
 .hero-btn{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     align-items: center;
@@ -82,7 +88,7 @@ body{
 }
 
 .values-item{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -91,7 +97,6 @@ body{
 }
 
 .values-discription{
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -99,7 +104,7 @@ body{
 }
 
 .product-title, .comand-title{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -122,8 +127,8 @@ body{
     color: var(--primary-text-color);
 }
 
-.filter-btn button{
-    font-family: Roboto;
+.filter-btn{
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -133,14 +138,14 @@ body{
     cursor: pointer;
 }
 
-.filter-btn button:hover,
-.filter-btn button:focus{
+.filter-btn:hover,
+.filter-btn:focus{
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
 
 .project-title{
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -166,3 +171,6 @@ body{
     color: var(--primary-white-color);
 }
 
+.li{
+    list-style-type: none;
+}
